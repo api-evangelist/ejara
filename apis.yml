@@ -1,7 +1,31 @@
 aid: ejara
 name: Ejara
-description: Ejara is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ejara is a Cameroon-based, regulated fintech platform giving people across
+  Francophone Africa and its diaspora access to digital savings and investment
+  products through a mobile app. Founded in 2020 in Douala by Nelly Chatue-Diop,
+  Baptiste Andrieux, and Tierno Tall, Ejara lets users save from as little as
+  1,000 CFA francs in BEAC-guaranteed savings plans earning up to 5% annual
+  interest, and buy, sell, and self-custody cryptocurrencies such as Bitcoin,
+  Ethereum, and stablecoins using blockchain-based non-custodial wallets. The
+  company is licensed by COSUMAF in the CEMAC zone (SGP-06/2021) and registered
+  with France's Autorite des marches financiers (AMF-E2022-056), and raised an
+  $8M Series A led by Anthemis and Dragonfly. Ejara operates as a consumer
+  mobile application on iOS and Android rather than a public API provider; this
+  profile tracks its developer surface, including open-source blockchain
+  libraries on GitHub, for the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.ejara.io/favicon.png
 url: https://raw.githubusercontent.com/api-evangelist/ejara/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Cryptocurrency
+- Savings
+- Investing
+- Blockchain
+- Mobile Banking
+- Africa
+- Financial Services
 apis: []
+common:
+- type: Website
+  url: https://www.ejara.io
+- type: GitHubOrganization
+  url: https://github.com/EjaraApp
+- type: Support
+  url: https://ejara.io/en/help-center
+- type: SignUp
+  url: https://www.ejara.io/download
+- type: TermsOfService
+  url: https://www.ejara.io/cgu
+- type: PrivacyPolicy
+  url: https://www.ejara.io/politique-de-confidentialite
+- type: DomainSecurity
+  url: security/ejara-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
