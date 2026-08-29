@@ -14,6 +14,17 @@ description: >-
   mobile application on iOS and Android rather than a public API provider; this
   profile tracks its developer surface, including open-source blockchain
   libraries on GitHub, for the API Evangelist network.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
