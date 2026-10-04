@@ -56,7 +56,7 @@ tags:
 - Blockchain
 - Mobile Banking
 - Africa
-- Financial-Services
+- Financial Services
 tags_raw:
 - Company
 - Fintech
@@ -67,6 +67,7 @@ tags_raw:
 - Mobile Banking
 - Africa
 - Financial Services
+- Financial-Services
 apis: []
 common:
 - type: Website
